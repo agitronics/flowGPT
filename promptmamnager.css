@@ -1,0 +1,45 @@
+.prompt-manager {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.prompt-manager h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.prompt-manager form {
+    margin-bottom: 20px;
+}
+
+.prompt-manager input[type="text"],
+.prompt-manager textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.prompt-manager button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.prompt-manager button:hover {
+    background-color: #218838;
+}
+
+.prompt-manager .prompt-item {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
